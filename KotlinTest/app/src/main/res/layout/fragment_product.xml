@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="8dp"
+        android:clipToPadding="false"
+        android:elevation="10dp"
+        android:background="@android:color/transparent"
+        tools:context=".fragment.ProductFragment">
+
+    <!--Background White Layout-->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.4"
+            android:background="@drawable/product_fragment_bottom_corner_background"
+            android:orientation="vertical"
+            android:paddingTop="50dp"
+            android:paddingHorizontal="@dimen/default_margin"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_product_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:transitionName="productTitle"
+                android:text="Orange mint summer refresh"
+                android:fontFamily="@font/rubic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/fragment_product_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:transitionName="productBody"
+                android:text="Healthy and tasty juice"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/fragment_product_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="$20"
+                    android:gravity="start"
+                    android:transitionName="productPrice"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/rubic"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                <ImageButton
+                        android:id="@+id/fragment_product_minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_remove_circle"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/fragment_product_quantity"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/rubic"
+                        android:textColor="@android:color/black"
+                        android:text="1"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                <ImageButton
+                        android:id="@+id/fragment_product_plus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_add_circle"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+
+    <!--Foreground Color Layout-->
+    <androidx.cardview.widget.CardView
+            android:id="@+id/fragment_product_image_cardview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.65"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <View
+                android:id="@+id/fragment_product_background_view"
+                android:background="@android:color/holo_green_light"
+                android:transitionName="productImageBackgroundView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ImageView
+                android:id="@+id/fragment_product_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/default_margin"
+                android:clickable="true"
+                android:transitionName="productImage"
+                android:scaleType="fitCenter"
+                android:src="@drawable/test"/>
+
+        <ImageButton
+                android:id="@+id/fragment_product_addtocart"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/ic_cart"
+                android:padding="@dimen/icon_padding"
+                android:layout_margin="@dimen/default_padding"
+                android:background="@drawable/cart_circular_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

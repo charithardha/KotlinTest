@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KotlinTest</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="go_to_cart">Go to cart</string>
+    <string name="menu_home_drawer_title">Drawer</string>
+    <string name="menu_home_cart">Cart</string>
+    <string name="juice_land">Juiceland</string>
+    <string name="home_title">What do you prefer to have?</string>
+
+
+    <string-array name="types">
+        <item>Juices</item>
+        <item>Hot Drinks</item>
+        <item>Food Items</item>
+        <item>Ice Creams</item>
+    </string-array>
+
+    <string name="cart_title">Cart</string>
+    <string name="cart_total_label">Total</string>
+    <string name="cart_total_value">$%.2f</string>
+    <string name="cart_count_text">Total %d items</string>
+    <string name="cart_checkout_button">Check Out</string>
+</resources>

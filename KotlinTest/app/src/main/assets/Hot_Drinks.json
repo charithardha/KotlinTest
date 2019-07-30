@@ -1,0 +1,20 @@
+{
+	"products":[
+		{
+			"id":21,
+			"title":"HotDrinks1",
+			"body":"HotDrinks1 HotDrinks1 HotDrinks1",
+			"price":5.0,
+			"color": "#FF5733",
+			"imageUrl":"https://lh3.googleusercontent.com/Q-zh2Gt1fare5IlQ48LDjapJp4xwA04TkFx4LeeQ6KlfcaZWWEefN9w67cPGL4gu9D0VKssoltuma1n_GjZAKThmKLUU0pM-7JU0DZDo8TTmfHyXeXOi3vaW6ZgXP98BAJvtwq5i9NM3IooHGjQ99EIcN6MkFpF2XXU0f51XU9k2_QuuOO0AniyfBhi2Sibfh7C2EfUjX03JlhVaP-H1lGxJTrcDS3M2VhJRtYgqQaRvSWB_AWKPMk4fD1wk8uhhZwkdPdv_Y5GEbAgMeouVuUAolGyve3upeynDf74znks2sWgfy_8RhHxLUcwhLkaqUODbHdgkUaaHIgsRifIaqcdYRLS6ZBg47gL6aUn3d8CIHB2DoJ_Uklyb22m4RhhmFwPih4ZS5Ek7dIOzSMmedkxdFSVw4Wr4mL9WgSGuobcQwjaRzX_Vzm7-ix1pbgX5tI8rFW2p_Cs3X3-eYYMIhJsU_qwx11YsX2w_4BRYpzjQxSTq_wa0rGmu0kZkmcbBEQ0HCvoteoUafcFxaMmWjOnxvSDyunNS2-14W1GX3WoOmDzTAO0oZAMRX088zGtm0Md0b0pKnisDxAgQoFEgzawRJYE43zAPXZDwQns9ygWeoev9x2jLDsqs51Z_RJ-xavNUsX399Bb19RdEOEF6Z4C5eKaEew=w736-h445-no"
+		},
+		{
+			"id":22,
+			"title":"HotDrinks2",
+			"body":"HotDrinks2 HotDrinks2 HotDrinks2",
+			"price":4.0,
+			"color": "#FFBB33",
+			"imageUrl":"https://lh3.googleusercontent.com/P0MS04KV2iUWZny6s-d5fXjd80qdII9KfYBKlAnNNOEc-1XbpRN4wckM0Q9XdKLAd0FJgGAtW37S2m2wRtwQen6U4OP5IaZV4tAg6KnEBWLcFIVxXN83n0StvNnPa9gtCxE01Hba4Pnz8E-eHiT05GeehGpaERM_tjNHxY8hr9eThJ5S9GOJm4VIuwQoEG5XPwabKwqgNBahmXt6TAtxuHOwXhJC0CwAJt4b6AEwOy3zygq5i6r8mfULNReHOip8GBWkfZZyQRTrbHYWXSpDLtsusRfMTw0FaG6teX5SK8r8xxdqc7pizIBwdeUL7UX9IZv0SeXi_8dyVwL3hshCl8y3uY7yGrnEUiVzzeFWqAfAhIN_uAtNwzRUIGmK4s-oThvgok3kjo88o0VoCnlwNx2Ok3gUp6nRJJFdpTuEBw9eNwvVBv6oVi3guMsAxO1VuATQS9_VWeGv305uRJc5bafdrOR4kjrAT3b0QhJqTKutndVeUp6aRq5MJWdb7ZRV_x5Ryn6YyJS1O23VmcoPW-AzL9TJvjPfqPh7F5LwezyOUyOUKOdH5-0iKHwM6N57jRskdhuDWYcFw6C29oFX4Z8DiyiiUApzfD8g7XdfITq6wwd4YqCIl8tKZeRhjEK5yOOUQQ-nBbKfyOD6wPmGGkALzLvU8g=w1920-h887-no"
+		}
+	]
+}
